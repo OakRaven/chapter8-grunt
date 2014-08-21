@@ -1,0 +1,17 @@
+{
+  "author": "M. W. Hatfield",
+  "name": "CSDevCookbookGrunt",
+  "description": "Sample for CoffeeScript Application Development Cookbook for Chapter 8: Grunt",
+  "version": "0.1.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-text-replace": "^0.3.12",
+    "moment": "^2.8.1"
+  }
+}

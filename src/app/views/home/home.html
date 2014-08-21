@@ -1,0 +1,17 @@
+<div data-role="view" id="appHome" data-layout="main-layout"
+  data-title="Home" data-model="APP.appHome.model"
+  data-init="APP.appHome.events.init">
+
+  <ul data-role="listview" data-style="inset"
+    data-bind="source: employeesDs"
+    data-template="appHomeEmployeeItemTemplate">
+  </ul>
+
+</div>
+
+<script type="text/x-kendo-template"
+  id="appHomeEmployeeItemTemplate">
+  <a data-id="#= id #" data-bind="click: employeeSelected">
+    #= name #
+  </a>
+</script>
